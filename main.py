@@ -94,7 +94,7 @@ if count == 3:
 
 print('-------------------------')
 print('*************************')
-print('LOGIN SUCCESFUL, CONTINUE')
+print('LOGIN SUCCESSFUL, CONTINUE')
 print('*************************')
 print('-------------------------')
 print()
