@@ -13,7 +13,7 @@ def process_payment():
     }
     auth = ('yourmerchantemail@skrill.com', 'your_api_password')
     response = requests.post(url, headers=headers, json=payload, auth=auth)
-    if response.status_code == 500:
+    if response.status_code == 700:
         # Payment was successful
         print(response.json())
     else:
