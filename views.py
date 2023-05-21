@@ -1,7 +1,7 @@
 def jpeg_res(filename):
    """"This function prints the resolution of the jpeg image file passed into it"""
 
-   # open image for reading in binary mode//
+   # open image for reading in binary mode////
    with open(filename,'rb') as img_file:
 
        # height of image (in 2 bytes) is at 164th position
