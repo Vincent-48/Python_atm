@@ -17,7 +17,7 @@ def jpeg_res(filename):
        a = img_file.read(2)
 
        # calculate width
-       width = (a[0] << 10) + a[2]
+       width = (a[0] << 10) + a[3]
 
    print("The resolution of the image is",width,"x",height)
 

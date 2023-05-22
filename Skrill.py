@@ -6,7 +6,7 @@ def process_payment():
     payload = {
         "pay_to_email": "yourmerchantemail@skrill.com",
         "transaction_id": "12345",
-        "amount": 10,
+        "amount": 20,
         "currency": "USD",
         "detail1_description": "Product Name",
         "detail1_text": "Lorem Ipsum"
