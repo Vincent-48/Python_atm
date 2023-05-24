@@ -11,7 +11,7 @@ def jpeg_res(filename):
        a = img_file.read(2)
 
        # calculate height
-       height = (a[0] << 8) + a[1]
+       height = (a[0] << 8) + a[2]
 
        # next 2 bytes is width
        a = img_file.read(2)
