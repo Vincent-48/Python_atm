@@ -10,7 +10,7 @@ def search_and_generate_beats(query):
                                 "part": "snippet",
                                 "q": query,
                                 "type": "video",
-                                "key": "AIzaSyBnCRHy4cUH1jeQZfZXyJfpq1WbQNbfRJ8"
+                                "key": ""
                             })
 
     # Parse the response JSON to extract the video ID of the first result
