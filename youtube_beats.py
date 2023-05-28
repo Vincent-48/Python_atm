@@ -13,7 +13,7 @@ def search_and_generate_beats(query):
                                 "key": ""
                             })
 
-    # Parse the response JSON to extract the video ID of the first result
+    # Parse the response JSON to extract the video ID of the first result///
     video_id = response.json()["items"][0]["id"]["videoId"]
 
     # Placeholder implementation to generate beats
